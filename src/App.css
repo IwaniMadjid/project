@@ -1,0 +1,145 @@
+nav {
+  height: 80px;
+  background-color: #264653;
+}
+.brand {
+  margin-left: 60px;
+  margin-top: 0px;
+  background-color: #264653;
+}
+h1 {
+  line-height: 80px;
+  display: inline-block;
+  color: whitesmoke;
+  background-color: #264653;
+  font-size: 30px;
+  vertical-align: 10px;
+  margin-left: 10px;
+}
+.petal {
+  width: 40px;
+  height: 40px;
+  line-height: 80px;
+  display: inline-flex;
+  background-color: #264653;
+  vertical-align: 0px;
+}
+ul {
+  float: right;
+  margin-right: 40px;
+  list-style: none;
+  background-color: #264653;
+}
+
+ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+  background-color: #264653;
+}
+.link {
+  background-color:#264653 ;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.link:hover {
+  color: #C0D8E0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color:#C0D8E0 ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+label #btn,
+Label #close {
+  color: black;
+  font-size: 30px;
+  float: right;
+  margin-left: 40px;
+  line-height: 80px;
+  cursor: pointer;
+
+}
+@media (max-width: 992px) {
+  nav i {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    margin-right: 0;
+    top:80px;
+    background-color:grey;
+    opacity: 0.8;
+    text-align: center;
+
+  }
+  ul li {
+    display: block;
+    line-height: 10px;
+    margin: 50px 0;
+    background-color: grey;
+  }
+  .link {
+    background-color: grey;
+    
+  }
+  .sbar {
+    background-color: grey;
+    
+  }
+}
+.check {
+  display: none;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.logo1,
+.logo2,
+.logo3,
+.logo4 {
+  position: relative;
+  width: 150px;
+  height: 200px;
+  border-radius: 5%;
+}
+.judulBuku {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.bukub {
+  padding-left: 50px;
+  
+}
+.bukue {
+  padding-right: 50px;
+}
+.bukuTeratas {
+  margin-left: 15%;
+  font-size: 20px;
+  font-family: 'roboto',sans-serif;
+  font-weight: bold;
+}
+h2 {
+  color: black;
+
+}
+.sbar{
+  background-color: white;
+  border-radius: 4px;
+}
